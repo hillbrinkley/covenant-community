@@ -62,12 +62,9 @@ a:hover {
   }
 }
 @media (max-width: 479px) {
-  .footer-links {
-    flex-wrap: wrap;
-  }
-
   .footer-container {
     width: 100%;
+    color: var(--dl-color-grays-dark100);
   }
 
   .footer-logo {
