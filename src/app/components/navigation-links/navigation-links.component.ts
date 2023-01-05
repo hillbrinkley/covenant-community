@@ -14,8 +14,7 @@ export class NavigationLinks {
   text3: string = 'About';
   @Input()
   rootClassName: string = '';
-  @Input()
-  text4: string = 'FAQ';
+
   @Input()
   text: string = 'Home';
   @Input()
@@ -53,18 +52,6 @@ export class NavigationLinks {
     document.getElementById('checkbox').click();
 
     document.getElementById('about').scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'nearest',
-    });
-  }
-
-  faq() {
-    //this.scroller.scrollToAnchor("targetGreen");
-
-    document.getElementById('checkbox').click();
-
-    document.getElementById('faq').scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'nearest',

@@ -162,7 +162,6 @@
   flex-direction: column;
 }
 .footer-link {
-  color: var(--dl-color-grays-gray100);
   cursor: pointer;
   font-style: normal;
   transition: 0.3s;
@@ -207,14 +206,26 @@
   text-transform: none;
   text-decoration: none;
 }
-.heading1 {
-  font-size: 52px;
-  font-style: normal;
 
+.sundays {
+  font-size: 3em;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #f7f4f2;
+  text-transform: none;
+  text-decoration: none;
+}
+.heading1 {
+  font-size: 5.2em;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.2;
   text-transform: none;
   text-decoration: none;
+  color: #f7f4f2;
 }
 
 @media (max-width: 767px) {
@@ -238,5 +249,11 @@
   }
   .lock-scroll {
     overflow: hidden;
+  }
+  .heading1 {
+    font-size: 3.8em;
+  }
+  .sundays {
+    font-size: 1.6em;
   }
 }

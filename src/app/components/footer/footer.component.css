@@ -14,32 +14,32 @@
 .clickable {
   cursor: pointer;
 }
+a:hover {
+  color: var(--dl-color-backgrounds-primary);
+  transition: 0.3s;
+}
 .footer-container {
-  flex: 0 0 auto;
   width: 50%;
   display: flex;
-  align-items: flex-start;
+  align-items: left;
+  justify-content: center;
   flex-direction: column;
 }
 .footer-logo {
   width: 250px;
   margin-left: -20px;
-  margin-bottom: var(
-    --dl-space-space-twounits
-  );
+  margin-bottom: var(--dl-space-space-twounits);
 }
 .footer-text {
-  color: var(--dl-color-grays-gray100);
   max-width: 350px;
   margin-bottom: 40px;
 }
 
 .footer-links {
-  flex: 0 0 auto;
   width: 40%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: row;
+  align-items: left;
+  justify-content: center;
 }
 
 .footer-container3 {
@@ -73,9 +73,7 @@
   .footer-logo {
     width: 160px;
     margin-left: 0px;
-    margin-bottom: var(
-      --dl-space-space-twounits
-    );
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .footer-links {
     display: none;

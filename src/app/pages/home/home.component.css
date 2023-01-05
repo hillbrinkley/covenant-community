@@ -38,7 +38,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(/assets/photos/main.jpg);
-  min-height: 80vh;
+  min-height: 50vh;
   background-size: cover;
   border-radius: 1.2%;
   background-position: center;
@@ -52,10 +52,7 @@ body {
 }
 
 .home-text {
-  color: var(--dl-color-backgrounds-gray);
-  text-shadow: 1px 1px 4px gray;
-
-  margin-bottom: 20px;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +80,6 @@ body {
 }
 
 .home-text15 {
-  color: var(--dl-color-grays-gray100);
   font-size: 20px;
 }
 
@@ -154,6 +150,7 @@ body {
     background-position: center top;
     width: 100%;
     border-radius: 0%;
+    min-height: 80vh;
   }
 
   .home-text {
