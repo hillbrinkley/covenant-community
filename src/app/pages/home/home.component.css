@@ -45,8 +45,8 @@ body {
 }
 
 .text-box {
-  width: 70%;
-  display: flex-inline;
+  width: 100%;
+  display: block;
   align-items: center;
   justify-content: center;
 }
