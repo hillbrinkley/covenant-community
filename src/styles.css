@@ -217,6 +217,7 @@
   color: #f7f4f2;
   text-transform: none;
   text-decoration: none;
+  user-select: none; /* Standard syntax */
 }
 .heading1 {
   font-size: 5.2em;
@@ -226,6 +227,7 @@
   text-transform: none;
   text-decoration: none;
   color: #f7f4f2;
+  user-select: none; /* Standard syntax */
 }
 
 @media (max-width: 767px) {
