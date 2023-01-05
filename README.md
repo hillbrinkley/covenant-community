@@ -1,10 +1,10 @@
-# Apex Collision Centers
+# Covenant Community Church
 
-Angular app built for a new collision center opening November 2022 in Lynchburg, Va.
+Angular app built for a small church in Martinsville, Va
 
 ## Live Site
 
-https://apexcollisioncenters.com/
+https://covenantofsnowcreek.com/
 
 ## Development server
 
