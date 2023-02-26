@@ -14,10 +14,10 @@
 .clickable {
   cursor: pointer;
 }
-a:hover {
+/* a:hover {
   color: var(--dl-color-backgrounds-primary);
   transition: 0.3s;
-}
+} */
 .footer-container {
   width: 50%;
   display: flex;
@@ -41,7 +41,9 @@ a:hover {
   align-items: left;
   justify-content: center;
 }
-
+.info-box {
+  display: block;
+}
 .footer-container3 {
   flex: 0 0 auto;
   width: 50%;

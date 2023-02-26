@@ -208,7 +208,7 @@
 }
 
 .sundays {
-  font-size: 3em;
+  font-size: 2vw;
   font-style: normal;
   display: flex;
   align-items: center;
@@ -220,7 +220,7 @@
   user-select: none; /* Standard syntax */
 }
 .heading1 {
-  font-size: 5.2em;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 600;
   line-height: 1.2;

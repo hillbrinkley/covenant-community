@@ -37,11 +37,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/assets/photos/main.jpg);
-  min-height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/assets/photos/main.jpg);
+  background-color: rgba(0, 0, 255, 0.7);
+  min-height: 64vh;
   background-size: cover;
   border-radius: 12px;
   background-position: center;
+  /* background-position-x: right; */
+  background-position-y: -170px;
 }
 
 .text-box {
@@ -68,6 +72,8 @@ body {
 }
 
 .home-content-container1 {
+  background-color: red;
+
   flex: 1;
   display: flex;
   max-width: 446px;
