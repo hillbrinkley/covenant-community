@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['footer.component.css'],
 })
 export class Footer {
-  constructor(private scroller: ViewportScroller, private router: Router) {}
+  constructor(private scroller: ViewportScroller, private router: Router) { }
   ngOnInit() {
     this.router.navigate(['/']);
   }
@@ -30,6 +30,13 @@ export class Footer {
 
   location() {
     document.getElementById('location').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+  statement() {
+    document.getElementById('statement').scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'nearest',
