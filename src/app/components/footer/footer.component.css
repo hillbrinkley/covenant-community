@@ -11,6 +11,7 @@
 .footer-max-width {
   justify-content: space-between;
 }
+
 .clickable {
   cursor: pointer;
 }
@@ -41,7 +42,9 @@ a:hover {
   align-items: left;
   justify-content: center;
 }
-
+.info-box {
+  display: block;
+}
 .footer-container3 {
   flex: 0 0 auto;
   width: 50%;
@@ -58,10 +61,10 @@ a:hover {
     width: 100%;
   }
   .footer-links {
-    width: 100%;
+    display: none;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 779px) {
   .footer-container {
     width: 100%;
     color: var(--dl-color-grays-dark100);

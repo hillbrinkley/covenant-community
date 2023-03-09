@@ -13,6 +13,8 @@ export class NavigationLinks {
   @Input()
   text3: string = 'About';
   @Input()
+  text4: string = 'Beliefs';
+  @Input()
   rootClassName: string = '';
 
   @Input()
@@ -20,7 +22,7 @@ export class NavigationLinks {
   @Input()
   text1: string = 'Sermons';
 
-  constructor(private scroller: ViewportScroller, private router: Router) {}
+  constructor(private scroller: ViewportScroller, private router: Router) { }
   ngOnInit() {
     this.router.navigate(['/']);
   }
@@ -40,6 +42,16 @@ export class NavigationLinks {
     //this.scroller.scrollToAnchor("targetGreen");
     document.getElementById('checkbox').click();
     document.getElementById('location').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+
+  statement() {
+    //this.scroller.scrollToAnchor("targetGreen");
+    document.getElementById('checkbox').click();
+    document.getElementById('statement').scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'nearest',
