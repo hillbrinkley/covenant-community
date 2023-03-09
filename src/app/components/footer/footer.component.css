@@ -11,13 +11,14 @@
 .footer-max-width {
   justify-content: space-between;
 }
+
 .clickable {
   cursor: pointer;
 }
-/* a:hover {
+a:hover {
   color: var(--dl-color-backgrounds-primary);
   transition: 0.3s;
-} */
+}
 .footer-container {
   width: 50%;
   display: flex;
@@ -60,10 +61,10 @@
     width: 100%;
   }
   .footer-links {
-    width: 100%;
+    display: none;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 779px) {
   .footer-container {
     width: 100%;
     color: var(--dl-color-grays-dark100);
