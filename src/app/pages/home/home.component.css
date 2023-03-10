@@ -239,7 +239,7 @@ body {
 .faq-drawer__trigger:checked
   + .faq-drawer__title
   + .faq-drawer__content-wrapper {
-  max-height: 350px;
+  max-height: 1050px;
 }
 
 .faq-drawer__trigger:checked + .faq-drawer__title::after {
