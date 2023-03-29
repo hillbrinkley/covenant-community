@@ -7,6 +7,17 @@ body {
   overflow-x: hidden;
 }
 
+.banner {
+  background-color: lightblue;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
 .button-thing {
   display: flex;
   justify-content: center;
@@ -115,6 +126,8 @@ body {
 
 .map {
   width: 90%;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 @media (max-width: 991px) {
@@ -138,6 +151,11 @@ body {
   .home-text12 {
     width: 100%;
   }
+  .banner {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+  }
 }
 @media (max-width: 767px) {
   .home-text {
@@ -146,6 +164,11 @@ body {
   }
   .map {
     width: 100%;
+  }
+  .banner {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
   }
 
   .home-max-width2 {
@@ -177,6 +200,11 @@ body {
     width: 100%;
     border-radius: 0%;
     min-height: 64vh;
+  }
+  .banner {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 10px;
   }
 
   .home-text {
