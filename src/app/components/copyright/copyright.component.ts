@@ -6,9 +6,11 @@ import { Component } from '@angular/core'
   styleUrls: ['copyright.component.css'],
 })
 export class Copyright {
-  rawjy4n: string = ' '
-  rawc5n6: string = ' '
-  raw93u1: string = ' '
+  currentYear: number;
 
-  constructor() {}
+
+  constructor() {
+
+    this.currentYear = new Date().getFullYear();
+  }
 }
